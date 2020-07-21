@@ -1,0 +1,40 @@
+@import "~antd/lib/style/themes/default.less";
+
+.header {
+  display: grid;
+
+  .nav {
+    justify-items: center;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 30vw 1fr;
+    align-items: center;
+
+    &-right {
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(min-content, max-content));
+      align-items: center;
+      justify-items: flex-end;
+
+      & > * {
+        margin: 10px;
+      }
+    }
+  }
+
+  &__primary {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fits, 1fr);
+
+    h3,
+    p {
+      display: inline;
+      color: @blue-5;
+      background-color: @gold-2;
+    }
+  }
+}

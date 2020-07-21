@@ -1,0 +1,53 @@
+.sliding-hero__item {
+  display: grid;
+  grid-template-columns: max-content;
+  align-content: end;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+
+  background-size: cover;
+  background-position: top;
+  justify-items: center;
+  padding-bottom: 3rem;
+  &--title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+  }
+  &--subtitle {
+    font-size: 30px;
+    // margin-top: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+  }
+  button {
+    outline: none;
+    box-sizing: border-box;
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+    color: #1d1d1d;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.0625rem;
+    border-color: #fff;
+    margin-top: 1.125rem;
+    user-select: none;
+    transition: all 0.3s;
+    &:hover {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}
