@@ -1,0 +1,31 @@
+.footer {
+  padding: 2rem;
+  background-color: #1f1f1f;
+  color: white;
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-rows: 30% 1fr;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__group {
+    display: grid;
+    justify-items: start;
+    justify-content: center;
+
+    ul {
+      list-style: none;
+      display: grid;
+      justify-items: start;
+      justify-content: center;
+    }
+  }
+
+  h1,
+  h3 {
+    color: #fff;
+  }
+}
