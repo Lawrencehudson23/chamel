@@ -2,6 +2,8 @@ import React from "react";
 import { Tabs } from "antd";
 
 import "./HeaderPrimary.less";
+import HighJewelry from "../../HighJewelry/HighJewelry";
+import Fashion from "../../Fashion/Fashion";
 
 const HeaderPrimary = () => {
   const { TabPane } = Tabs;
@@ -20,12 +22,10 @@ const HeaderPrimary = () => {
         omnis dolorem, neque deleniti assumenda?
       </TabPane>
       <TabPane tab="fashion" key="2">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam impedit
-        beatae provident reprehenderit eius nesciunt?
+        <Fashion />
       </TabPane>
       <TabPane tab="high jewelry" key="3">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-        dignissimos accusantium voluptatibus, reprehenderit similique illo!
+        <HighJewelry />
       </TabPane>
 
       <TabPane tab="fine jewelry" key="4">
