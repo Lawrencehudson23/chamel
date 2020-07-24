@@ -3,6 +3,7 @@ import "./SlidingHero.less";
 import SlidingHeroItem from "../SlidingHeroItem/SlidingHeroItem";
 
 const SlidingHero = () => {
+  // eslint-disable-next-line
   const [items, setItems] = useState([
     {
       id: 1,
