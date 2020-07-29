@@ -17,10 +17,7 @@ const HeaderPrimary = () => {
       className="header-primary"
       centered
     >
-      <TabPane tab="haute couture" key="1">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum iste
-        omnis dolorem, neque deleniti assumenda?
-      </TabPane>
+      <TabPane tab="haute couture" key="1"></TabPane>
       <TabPane tab="fashion" key="2">
         <Fashion />
       </TabPane>
